@@ -1,0 +1,9 @@
+pulp
+pandas
+numpy
+plotly
+pytest
+crewai
+langchain-openai
+langchain-google-genai
+python-dotenv
