@@ -67,6 +67,5 @@ pytest tests/ -v
 │   └── agents.py        # crewAI multi-agent orchestration and personas
 ├── tests/               # Pytest suite validating optimization constraints
 ├── requirements.txt     # Python dependencies
-├── .env.example         # Template for environment variables
 └── README.md            # Project documentation
 ```
