@@ -3,7 +3,7 @@
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![Optimization](https://img.shields.io/badge/Math_Solver-PuLP-success.svg)](https://coin-or.github.io/pulp/)
 [![AI Framework](https://img.shields.io/badge/Agentic_Framework-crewAI-orange.svg)](https://crewai.com/)
-[![LLM](https://img.shields.io/badge/LLM-Gemini_1.5_Flash-blueviolet.svg)](https://deepmind.google/technologies/gemini/)
+[![LLM](https://img.shields.io/badge/LLM-Gemini_2.5_Flash-blueviolet.svg)](https://deepmind.google/technologies/gemini/)
 
 ##  Executive Summary
 OptiGrid-Agent is a dual-engine AI pipeline designed to solve two distinct challenges in modern energy management: mathematically optimizing battery dispatch schedules, and autonomously translating those complex financial metrics into pedagogical, client-facing communications.
