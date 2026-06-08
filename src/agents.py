@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from crewai import Agent, Task, Crew, Process
 from tools import run_battery_optimization
 
-# 1. Explicitly load the .env file so crewAI can find GEMINI_API_KEY
+# 1. Explicitly load .env 
 load_dotenv()
 
 def run_agentic_workflow():
@@ -22,7 +22,7 @@ def run_agentic_workflow():
         ),
         verbose=True,
         allow_delegation=False,
-        llm=gemini_model,  # <--- Clean string injection
+        llm=gemini_model, 
         tools=[run_battery_optimization]
     )
 
@@ -37,7 +37,7 @@ def run_agentic_workflow():
         ),
         verbose=True,
         allow_delegation=False,
-        llm=gemini_model   # <--- Clean string injection
+        llm=gemini_model  
     )
 
     # --- Define the Tasks ---
